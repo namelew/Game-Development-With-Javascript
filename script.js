@@ -6,15 +6,15 @@ let gameSpeed = 10;
 //let gameFrame = 0;
 
 const backgroundLayer1 = new Image();
-backgroundLayer1.src = "background/layer-1.png";
+backgroundLayer1.src = "assets/background/layer-1.png";
 const backgroundLayer2 = new Image();
-backgroundLayer2.src = "background/layer-2.png";
+backgroundLayer2.src = "assets/background/layer-2.png";
 const backgroundLayer3 = new Image();
-backgroundLayer3.src = "background/layer-3.png";
+backgroundLayer3.src = "assets/background/layer-3.png";
 const backgroundLayer4 = new Image();
-backgroundLayer4.src = "background/layer-4.png";
+backgroundLayer4.src = "assets/background/layer-4.png";
 const backgroundLayer5 = new Image();
-backgroundLayer5.src = "background/layer-5.png";
+backgroundLayer5.src = "assets/background/layer-5.png";
 
 window.addEventListener("load", () => {
 	const slider = document.getElementById("slider");
